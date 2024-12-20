@@ -1,0 +1,1210 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=sunburst-drink&code=G4QwTgBAJiAuIQLwQNoCgIQN4cxAdiALYCmAXBAOSBytoOrKlANLpgJawlEDKsAngDblszPAGMA9nzFgKlAMQiRAdkUAmFZWEBfJnggiAFiz5QwJfBXS7MOK3kKkZgXTlANvGByTUAFAY2G7QfAK6CAIw6thBsHNz8gjahmOKS0lSyAGYARiIkqYEasZreENr5QrH2gpSAYE6ASQ6ADoGAjUFesb4BFMFFYexcvAIUMbHxUjIp6ZnZbXm2haG9VqUygGs-gNGJgCU5gD45DaFNQSG24Z1RPW1xEgNJaRlZOaHjVpO207qzVICdNuWAM8qAYIHrtpst21a7kW6xViemOiTkZxGlwm-VuVnudmIZUAjjqAHDlANXagF35QCEeYBAOS-Vh-EFasQBXWih1BCUGkIuY1hfzwCMwj0ogG21QA5qoAOOUACtoEnwgfxbNpk_bAvpgmnDOm5BlFZkEJEyQDa6jzAJEB_LwRJJoVFQIVR2pp2lo1lE0Z1jarMAbpqAExtAE0hgB3gzWYbUW1gdQEUkFUk4Qk3Qm5yqZWpVUQD7PoAMxxWgHEnF0QN0iz3kg4-_rgobnU1XYN3UMOKiAUFTADIagDEYwAKgfHE6Tk2KDb6M7TszDzfkFayAGIJQXxvXekHpwYkAAMikCAE4RIHdHCrLDhABdXC3aaswAXdoA93QJfdTVkHSRgIGHADYoIHZwYjCYzBY2_myoAldMAzGmVbFVwXNYnu9oRFPi0L7hCaTJMOw7Tng1wzha7ZhpQgCgdoAaQ6AAD6gAzioAtRbvkKvxJr-daUoBKTAaB4GYJBEHQfeMiAMd-gDALoATnqALixmGfjqOy1vq-GSqcRFgfSrZ5iUsGAJRKgC_aghgBR_hq37Vrq7H9hKRpAakIG8WaNwUYJBaUBy4m6bazHCjWuEcWmXFKSpJEFLmugwVpcGAB0hgCzzoAB86AMKKazSR-hmycZ8kAWZhHKcRfHqXemllIAco6ACcOriAH5hBnYUZewmQOAXJDxllkaRGmhKyABCJBgGAPC9nJu4KX6gUWWM37WUylFUAAImALAkFAEAdmAfhsKVvnlf5ilVcFuS1fx8INZQADysD6IVHVdT1347v-tgEelQWqVco2hQJuWwQAwmwXUAM7zd1sC9clfmrWlGU1UU866Eu2W4KusGAO36W5_MtCIEZkqQACzDsk55_JeximOYqBhXtWmfYASkZvp5WFfjhV39Tdg0kAAzOOx7YyQmV1Za4UyIA8JqAKS2gDAeoA0RFI20MlsX1K17gFON4wTRNjTZE2AM56gD5yoAznKALx5CWo0lXoY6zWO4_jhMhVBMO2Kyn2AJE-9lSQzXmJT56Ms7of2y5zCvkUrMywZygC0eXyyMsUtZX66IbNG_LamK7tysfRu4nuPptveUzev1obHOuzm3P1aTVCAEiWgALboAGQE21rKOsf8DvB87odczt41R5QnBiH4YCXZLjuGpV7Ny5l23u7nsNlAAgnw4j6BIAD0AA6-CdRwZjsGe9vMxng2pMO46KNj2PV20j14M9BQhG9WmooApCHbun-QESIw5A8NpsG4YEM3tDHvm1pgD-eoAbpmAC0BgAuWZrjTa-Luul8PlXJCAUAAKwgF_2e1zzPOgAn5UAMfKgBzh3po_FOg8g6cUGh_b-v9_77zrp7LSgBIOUAPV-gAGxUtmLVOugfpwPfp_H-f8TYvVPg8WCgAccMAII2gBFxMAMXm-CYGv2IY2UhSCKELzNtQrSgB0ZUALU6vJWFo3YaZeBXDyFuxQXgPhiItIAHFTBmE7vgAAaiQAA5iQeAsAWDAEJmwv8b8MzYxACAFQX8ZFbRnhHCAi5lyL2EKyQA88GAF-bdeQ9N4BSgCoRQ_izxaDBofa8UNLCoLPmUQAn2YbkAJcOgBaPUAAzqYiJamI4TSZI2894thzoA-uMhACqyoAfuVJJ-2TnbcRGTJHv2yaBTaeSAGR0KVQGJJSwGAG0nB-Gwn4ELwEQ2pjZ6m5KDA4x2rJAAIRoAM2tAC-boAU0TIG9OgdUvCQysk5MaWM_JLS0FlE8eGDylSA5px8es7imzkGUKifw_ZHjZkVKgVU9JazUrwJGVsmcxMJmwUACN5gBI7Xvmkl-NS3l1MuTw2cJNWmUFRIAODNACZmYALIDgWBwkWC4ZELZHXIKXsmQnjAAU5oAHZdfmlkAFTOgAsQMecs55ILXkVUxQ0q5vCqGKLKAABRAAAB0KjwNuABZPwx1eAl1BQyjZTL7qxG-bZMo-1ZpEBYCIHsJj6UDUqooY828RCpGntKppEB54rlcbBaggBA7W8bAzGlVDwnmCc08G4TbyspZKas1gB4VzVHRQAtpmotOVajFgxDxfxUJ8iCMqJqABVtQAOXrOn9jrNFYr1UZmDaG5lUKflaUADZZgAxtIgX6whG9zlyFTWG0iEa86ACB7W0KwuQFoGUWwNB5LEhrLVZcZsqZAxsAPGOFZ60ejOU2ktLa02QpyniqggA6_WRIANTtACRiYAT_D-0_gDeK5tv9R3YpZTctlMh_nIgQkcp5JzC2DrXcOjdbasrbtxdEmQgRhyAHWbQALDaABfzQA1g4ISWd8PpqqUrntkKW9NjJ8gKNdVpPKRd8AXT_ddaWlVUgkAABzHnxnq0IFaYX7UKiQFVqz_3JqDTAZIx5mw7N0LPTARqXG3JkIAKQDABz6pa9FBsAoKGUGoUGwhHWQ2dTu8DZRABeXoAYf1ACQLoAYJdRHxufomtV1rhlQFw_a8O5HM1lEABnBJTAAewYAA2CpPHITf6ljhHuKKc_sBsDiotKMe7d-wkv78NwdY-8szymDU4t2XeqggBHRIRXZgUKyXkEfk1k1zFmKMuqs2UPKYAxAAHd8AQE4FypVxjHNS2cwhwIANv6KHQ7YSjhrnGvRNVpQALHKACCbZjSby4ZhECoVIKgkNbIvGE3jJ9-NRZkBVwAmSHIlfMuwZQ7ZAkABuOUeIMx2WdZJVwAgz6DcbQB0b43gbhc66yQARX5gMACqKgAWTQW2ekzchlsTbW7e2jRZixHppSehth2QtJBO6tqbkXWS9cAJKKgBZi381qBzQWnNOyxmN07L31uwV664QsgALRXEgd1dR2RvA-e1ujNnaqAADk_CwBFbBjLgPKpKCQyh8c-W5wdomvtMQ4gQCirk_BjMqRUiaoBlOKV2yqPFehQJmQD5ADZOtVunW8lCqHUCE7jbXj6RPO7uqggBHELAYAd1tABDynD4zD2gIkC_oDM7nmLuUD53FVXNX6dZM19r0H0vudUD5wixZRu6eZeGWbgGOuudecoPDfmgBnjUALE512f2BbpcFk33Fneu7UzIQAQLrIkAOPBX77fB8d6brXLuLe65l_BeygACpUAJAq_v7OB9k4n_HTuU_h7R5QQAxfGVEACdhgAocITwD2ryfzco_He7tUgBqc2V43vHzfQ9l7T27vXDlc_59PfD9XhEw9s4Kw4px1yl5lEAPsOgAH5QF8HreAMQAAyQ6nh1EuInTdgi8BXgAu8N72XBsWTLGT3LxNKMsZL9mJvyAO_Q-I9UC24b6T_SB2T5DyAlvyng_wry20AFXQutX_XHK_NaD-N_EAtvY_LSQAFaNABcOUAE-gwAHPNn9MluJgD7884VhCwYw4xoD0tYDboCDQCJpABb9MdEqAV08HIP-z72v3wIQMIJhUABuQwARuDAATZSBRYKDyb3YKAM4JoLzjX0ADRHJOVgyg95agkaexcjBfbdJfGQQAU9NABzRw3zgz-iR0mwPyvHayl3Tyt0oEAA9EyvQAGTkVhABpsOpQD1pSL1ELgLC0kJhUADEbQAf0jABe00ABgg3A4tQiDwpA17WCQAGrlAAaxTjQMxkyM2NyT1MyUy4InUoB0IikAB9M4I4bdKMIlTZpYfDPQAJOCSkYcnCC8XDEiHcS9QtUjPD0idDKhK8a9ciAN8iGjwiwcINYsEsks_BtFwBadi9-8S0AYyESdZ8ydVCnpOd_xWRAAHm3-T0KlgIn8UBiQ1Z2MKPiPwiK0jokAA6HQAE1jAA9nPH1-0LxqNGLEMIhABEECG2MKLkXMK6yoEAC65JXZJQsH7V0P7EQtguA-4x4tI93dA5EQAe2D2iEd0pgSnj3Mb1XjWR0FAA4_z7WENcMBKoIePhPZxeOKIsO80ACtXQAEGDoSp9YScTQS9dFj-tfiEx_jMSFC6k4TqSM8HJUReYZ1ABg8KXQxOuLcOxJBMaPd2REckAH9UwAf-1CxyTAC7iqSRS9cYt4tEtOBBjhiYCX98CFTlD9VZi555iNCqBABALQV1WJZi3h3klR2KdQ60tzeMoCOMAHgdX5C4v4q4ifNXOUhBMhNkiwwASRi6FABxIyYn5M9KSLqNOGkT9IdNNLgkqIC2qPDNqLGJSGjMVIzyqEAEpNQAUTz7DZTkiIR0zuj7TWRCxABfRwV0ADmwuQm7QzZMm4taYs54jzAkh0wWZESSGUsMu7AAwstMxBWxBE1HCaQATKDABJkMAByc0M-Iv_FdL0_sn07hEspE2CZU_otUoY4uTUvA8YyY0nCLfUjnRfUrMoQAWXtAApdXNN-jSnuKQ3HCQy4wPhMMl2QLKEAFKgzvekxmAUrEmWLODMiws8kpQ4wAFLkEUelnDbt_8FzIzjsXYYzWRJT3tAA5MN22_MZN_OZIzErmNhXLbNZF-WkMACZXN0hkj03s2C1M3CsOYc9vPXQAD-iGNK80DayoL6zKKIzqKELAKHTAB7M0AFygp0yoSCqo6C-cri24mixC2CASwAO5swFRLEzxKhslseL8LP9KBAAjbxjwLLgpG3UpbMRIIrXL6NVPVO3IoK1L3N_imN1Iw3nzmJPL1yYUABC9a83xQaEQKARQZIbGUXG00wt8mQNyyvHkDCiimCyS9wr-ZrGSrSQAahVAA8_302PQ4qipTNuPyNiqvUw3SLcu-IiqTM4sypirit4tZEAGzQhjWbBMy44qjKxs26b-cqjSivdc8yrckYwUwaKACY2yg8-RRyg05yjPQAEdtAAtZQ8opIBkZwBn3xeJ41fP2LKAmuRArEAEbvPS1M7eXeXK8nPOSHGHba243a60oykcvONa-ZJS-qlSxbBHM60ZL5A6mFNaw42690hqiS0qtjK0568NV69Ita-JOItKhIhsnqgnf6_a1TCvQAZQSQFAAOlTBrrIhpKqaq8phvirKEAHt4sBdE2cnckIp62GoozS_guhSSE6y0vanGmQQADg8Vg6qvr7r7s5TSb6aqAOqBiuribhs-r9zpjDyii1C8gFwABuNAMQLlAxMQRLZAGIAxWAAjdgAAD1gBkAAHVJoAAlAAGUaggH2kmg7A7AAFFzaIBdbzbOBzaG5db9oAAJJLc29HTgPWgATQgH1vNoAA0ABJE29HAkY6PwVIdWzWqgAuIuDICgfQbHLlY6MgNuNuOLKQYwcQdKEgHDY6XDMAAwAAOikG0TTqkAAGs24878BjopAeAABaAQNWpVeWtuAkSOr05IeW2ATgFgAALyCABgtEFBYG0ShkoAyGg0KifLwDDojpIA1q9JHrHpkEnvYGLjF10Dnr4BYHwHLpkATtgCTpTrLrAEzrEGztzvzqLpLtPsrurtruKkboXpbvwDbvmLzpahIGTv_F4B5RkDDvwFSCLmFQJBgHgAoHAZAD-DAE_hYCFQsGHAYCoHHC_gAFJKAFw_hH6o6_B8BFNkhd62o_gOAuV9AQBjoWAf6EQu6RAEGqAQB8AMhhUpAZ7MABAjE-Af6zDrBLrQgwBhx710H4xwRsZhH-bYhUgpBFMwAtaWAoAZoKAVBha8A-AQBEM-A2DYt9Eyh4B8BdFoMWAexeKBGZAxGMHvxwRFBhwLG2g1GNG2Dl7x6WptEE6YzTGqBrHbHYgrGVBvHQh7GSBNGr8uUxBKG5bx7C5YBKHFN4xMAuVP4oBd7tEKBsZvxMBKGBBoMKAP4uGSAVHGrRCpGwAZG5GFH9BUnIUxa0BNAJagA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-gl/2/files/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-stat/latest/files/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-graph-modularity/2/files/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/4.9.0/files/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.1/files/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    var data = [
+  {
+    name: '济南',
+    itemStyle: {
+      color: '#cc7722'
+    },
+    children: [
+      {
+        name: '九转大肠',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '爆炒腰花',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '糖醋鲤鱼',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '油爆双脆',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '山东宫保鸡丁',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '四喜丸子',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '坛子肉',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '奶汤蒲菜',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '糟熘鱼片',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+       {
+        name: '锅塌豆腐',
+        value: 1,
+        itemStyle: {
+          color: '#fbceb1'
+        }
+      },
+      {
+        name: 'Floral',
+        itemStyle: {
+          color: '#e0719c'
+        },
+        
+      }
+    ]
+  },
+  {
+    name: '滨州',
+    itemStyle: {
+      color: '#daa06d'
+    },
+    children: [
+      {
+        name: '青阳炒鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '清炖开凌梭',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '绣球干贝',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '利国炖羊肉',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '喜羊羊羊汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '清蒸珍珠元鱼',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: '煎烤大虾',
+        value: 1,
+        itemStyle: {
+          color: '#ffbf00'
+        }
+      },
+      {
+        name: 'Berry',
+        itemStyle: {
+          color: '#ffbf00'
+        },
+        
+      },
+      {
+        name: 'Dried Fruit',
+        itemStyle: {
+          color: '#ffbf00'
+        },
+        
+      },
+      {
+        name: 'Other Fruit',
+        itemStyle: {
+          color: '#ffbf00'
+        },
+        
+      },
+      {
+        name: 'Citrus Fruit',
+        itemStyle: {
+          color: '#ffbf00'
+        },
+       
+      }
+    ]
+  },
+  {
+    name: '德州',
+    itemStyle: {
+      color: '#ebb40f'
+    },
+    children: [
+      {
+        name: '德州扒鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '夏津布袋鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '平原乳鸽',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '德州粉蒸肉',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '四喜鸭子',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '德州羊肠汤',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '椒盐肘子',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: 'Sour',
+        itemStyle: {
+          color: '#e3963e'
+        },
+        
+      },
+      {
+        name: 'Alcohol/\nFremented',
+        itemStyle: {
+          color: '#b09733'
+        },
+        
+      }
+    ]
+  },
+  {
+    name: '东营',
+    itemStyle: {
+      color: '#c04000'
+    },
+    children: [
+      {
+        name: '广饶肴驴肉',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '史口烧鸡',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '三纯冰鸭',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '蜜汁金枣',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '北岭丸子',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+     
+      {
+        name: 'Green/\nVegetative',
+        itemStyle: {
+          color: '#3aa255'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '菏泽',
+    itemStyle: {
+      color: '#d27d2d'
+    },
+    children: [
+      {
+        name: '曹州烩席地',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '单县羊肉汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '曹县烧牛肉',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '成武白酥鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '菏泽糟鱼',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '菏泽白汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '黄安驴肉',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '东明香肚',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: '菏泽木瓜黄豆猪脚汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffc000'
+        }
+      },
+      {
+        name: 'Papery/Musty',
+        itemStyle: {
+          color: '#ffc000'
+        },
+        
+      },
+      {
+        name: 'Chemical',
+        itemStyle: {
+          color: '#76c0cb'
+        },
+        
+      }
+    ]
+  },
+  {
+    name: '济宁',
+    itemStyle: {
+      color: '#daa06d'
+    },
+    children: [
+      {
+        name: '济宁甏肉干饭',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '孔府菜',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '马集烧鸡',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '漂汤鱼丸',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '孔府熏豆腐',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '微山湖醉蟹',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '安山炖鱼',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+      {
+        name: '10泗水柴火炖鸡',
+        value: 1,
+        itemStyle: {
+          color: '#daa520'
+        }
+      },
+     
+      
+      {
+        name: 'Burnt',
+        itemStyle: {
+          color: '#be8663'
+        },
+        
+      },
+      {
+        name: 'Cereal',
+        itemStyle: {
+          color: '#ddaf61'
+        },
+        
+      }
+    ]
+  },
+  {
+    name: '聊城',
+    itemStyle: {
+      color: '#cc7722'
+    },
+    children: [
+      {
+        name: '空心琉璃丸子',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '莘县荸荠丸子',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '聊城熏鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '酱香鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+    
+      {
+        name: 'Brown Spice',
+        itemStyle: {
+          color: '#b14d57'
+        },
+        
+      }
+    ]
+  },
+  {
+    name: '临沂',
+    itemStyle: {
+      color: '#c2b280'
+    },
+    children: [
+      {
+        name: '沂蒙山炒鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: '临沂糁',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: '红烧兔头',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: '锅塌鱼',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: '沂蒙光棍鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: '沂蒙大锅全羊',
+        value: 1,
+        itemStyle: {
+          color: '#e49b0f'
+        }
+      },
+      {
+        name: 'Nutty',
+        itemStyle: {
+          color: '#c78869'
+        },
+        
+      },
+      {
+        name: 'Cocoa',
+        itemStyle: {
+          color: '#bb764c'
+        },
+      }
+    ]
+  },
+  {
+    name: '青岛',
+    itemStyle: {
+      color: '#cc7722'
+    },
+    children: [
+      {
+        name: '葱烧海参',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '青岛大虾',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '青岛香酥鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '扒原壳鲍鱼',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '崂山菇炖鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '清蒸加吉鱼',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '辣炒蛤蜊',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '肉末海参',
+        value: 1,
+        itemStyle: {
+          color: '#ffe5b4'
+        }
+      },
+      {
+        name: '清蒸加吉鱼',
+        itemStyle: {
+          color: '#ffe5b4'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '烟台',
+    itemStyle: {
+      color: '#c4a484'
+    },
+    children: [
+      {
+        name: '油爆海螺',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '糟熘鱼片',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '红烧大虾',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '红烧藕丸',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '拔丝苹果',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '鱼锅片片',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '韭菜炒海肠',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '蓬莱卤驴肉',
+        value: 1,
+        itemStyle: {
+          color: '#ffaa33'
+        }
+      },
+      {
+        name: '烟台焖子',
+        itemStyle: {
+          color: '#ffaa33'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '日照',
+    itemStyle: {
+      color: '#e49b0f'
+    },
+    children: [
+      {
+        name: '酸辣乌鱼蛋汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '汆西施舌',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '京冬菜',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '日照煎饼',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '莒县全羊汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: '日照炒辣蛤',
+        value: 1,
+        itemStyle: {
+          color: '#ffdead'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#d45a59'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '泰安',
+    itemStyle: {
+      color: '#d2b48c'
+    },
+    children: [
+      {
+        name: '干炸赤鳞鱼',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '人参地锅鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '拔丝山药',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '三美豆腐',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '酱番茄',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '泰山炒鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '清蒸东平湖螃蟹',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: '山珍长寿锅',
+        value: 1,
+        itemStyle: {
+          color: '#ffac1c'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#ffac1c'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '威海',
+    itemStyle: {
+      color: '#c04000'
+    },
+    children: [
+      {
+        name: '干炸小黄鱼',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '豉汁扇贝',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '威海清汤',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '爆炒天鹅蛋',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '锅煽海蛎子',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '乳山羊肉锅',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: '芙蓉鲜贝',
+        value: 1,
+        itemStyle: {
+          color: '#fad5a5'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#d45a59'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '潍坊',
+    itemStyle: {
+      color: '#fac898'
+    },
+    children: [
+      {
+        name: '芥末鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '潍县炸五香肉',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '寿光虎头鸡',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '黄焖甲鱼',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '诸城辣丝子',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '景芝小炒肉',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '芝泮烧肉',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: '筢菇',
+        value: 1,
+        itemStyle: {
+          color: '#e3963e'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#d45a59'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '枣庄',
+    itemStyle: {
+      color: '#cd7f32'
+    },
+    children: [
+      {
+        name: '枣庄辣子鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffd580'
+        }
+      },
+      {
+        name: '含羞丸子',
+        value: 1,
+        itemStyle: {
+          color: '#ffd580'
+        }
+      },
+      {
+        name: '枣庄地锅鸡',
+        value: 1,
+        itemStyle: {
+          color: '#ffd580'
+        }
+      },
+      {
+        name: '薛城糁汤',
+        value: 1,
+        itemStyle: {
+          color: '#ffd580'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#d45a59'
+        },
+        
+      },
+     
+    ]
+  },
+  {
+    name: '淄博',
+    itemStyle: {
+      color: '#f4bb44'
+    },
+    children: [
+      {
+        name: '博山豆腐箱',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '大锅全羊',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '博山酥肉',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '博山炸肉',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '博山烩菜',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '道口咸菜',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '软烧豆腐',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '卤汁羊肉',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: '砸鱼汤',
+        value: 1,
+        itemStyle: {
+          color: '#c04000'
+        }
+      },
+      {
+        name: 'Brown Sugar',
+        itemStyle: {
+          color: '#d45a59'
+        },
+        
+      },
+     
+    ]
+  }
+];
+option = {
+  title: {
+    text: 'WORLD COFFEE RESEARCH SENSORY LEXICON',
+    subtext: 'Source: https://worldcoffeeresearch.org/work/sensory-lexicon/',
+    textStyle: {
+      fontSize: 14,
+      align: 'center'
+    },
+    subtextStyle: {
+      align: 'center'
+    },
+    sublink: 'https://worldcoffeeresearch.org/work/sensory-lexicon/'
+  },
+  series: {
+    type: 'sunburst',
+    data: data,
+    radius: [0, '95%'],
+    sort: undefined,
+    emphasis: {
+      focus: 'ancestor'
+    },
+    levels: [
+      {},
+      {
+        r0: '15%',
+        r: '35%',
+        itemStyle: {
+          borderWidth: 2
+        },
+        label: {
+          rotate: 'tangential'
+        }
+      },
+      {
+        r0: '35%',
+        r: '70%',
+        label: {
+          align: 'right'
+        }
+      },
+      {
+        r0: '70%',
+        r: '72%',
+        label: {
+          position: 'outside',
+          padding: 3,
+          silent: false
+        },
+        itemStyle: {
+          borderWidth: 3
+        }
+      }
+    ]
+  }
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
